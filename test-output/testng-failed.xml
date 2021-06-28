@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Framework Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="modules.TasksModules">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="getResult"/>
+          <include name="addNewTask"/>
+        </methods>
+      </class> <!-- modules.TasksModules -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Framework Suite] -->

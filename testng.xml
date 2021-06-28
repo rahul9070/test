@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Suite1">
+  <test thread-count="1" name="Test1">
+  
+  	<classes>
+  	<class name="modules.Login">
+  		<methods>
+  			<include name='mylogin2'></include>
+  			
+  		</methods>
+  	</class>
+  	</classes>
+  	</test> <!-- Test -->
+  
+   <test name="Test2">
+  <classes>
+  	<class name="modules.TasksModules">
+  		<methods>
+  			<include name='addNewTask'></include>
+  			
+  		</methods>
+  	</class>
+  	</classes>
+  
+  
+  
+  </test>
+</suite> <!-- Suite -->
+
+

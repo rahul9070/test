@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" Suite1" duration-ms="55334" started-at="2021-06-22T15:09:47Z" finished-at="2021-06-22T15:10:43Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="25947" started-at="2021-06-22T15:09:47Z" finished-at="2021-06-22T15:10:13Z">
+      <class name="modules.Login">
+        <test-method status="PASS" signature="setup()[pri:0, instance:modules.Login@194d431]" name="setup" is-config="true" duration-ms="12387" started-at="2021-06-22T15:09:47Z" finished-at="2021-06-22T15:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mylogin2()[pri:0, instance:modules.Login@194d431]" name="mylogin2" duration-ms="11898" started-at="2021-06-22T15:10:00Z" finished-at="2021-06-22T15:10:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mylogin2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:modules.Login@194d431]" name="getResult" is-config="true" duration-ms="5" started-at="2021-06-22T15:10:12Z" finished-at="2021-06-22T15:10:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mylogin2 status=SUCCESS method=Login.mylogin2()[pri:0, instance:modules.Login@194d431] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:modules.Login@194d431]" name="teardown" is-config="true" duration-ms="1609" started-at="2021-06-22T15:10:12Z" finished-at="2021-06-22T15:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- modules.Login -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="29363" started-at="2021-06-22T15:10:13Z" finished-at="2021-06-22T15:10:43Z">
+      <class name="modules.TasksModules">
+        <test-method status="PASS" signature="setup()[pri:0, instance:modules.TasksModules@1cab519]" name="setup" is-config="true" duration-ms="9720" started-at="2021-06-22T15:10:13Z" finished-at="2021-06-22T15:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewTask()[pri:0, instance:modules.TasksModules@1cab519]" name="addNewTask" duration-ms="18323" started-at="2021-06-22T15:10:23Z" finished-at="2021-06-22T15:10:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:modules.TasksModules@1cab519]" name="getResult" is-config="true" duration-ms="12" started-at="2021-06-22T15:10:41Z" finished-at="2021-06-22T15:10:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewTask status=SUCCESS method=TasksModules.addNewTask()[pri:0, instance:modules.TasksModules@1cab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:modules.TasksModules@1cab519]" name="teardown" is-config="true" duration-ms="1295" started-at="2021-06-22T15:10:41Z" finished-at="2021-06-22T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- modules.TasksModules -->
+    </test> <!-- Test2 -->
+  </suite> <!--  Suite1 -->
+</testng-results>
